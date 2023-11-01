@@ -18,10 +18,10 @@ browser.maximize_window()
 browser.get("https://www.linkedin.com/login")
 
 input_email = browser.find_element_by_id("username")
-input_email.send_keys('guilherme.hlalbuquerque@gmail.com')
+input_email.send_keys('SEU_EMAIL')
 
 input_senha = browser.find_element_by_id("password")
-input_senha.send_keys('Guilherme03')
+input_senha.send_keys('SUA_SENHA')
 
 btn_login = browser.find_element_by_xpath("//button[@type='submit']")
 btn_login.click()
